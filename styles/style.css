@@ -1,0 +1,33 @@
+body {
+  font-family: "Dosis", sans-serif;
+}
+
+h1,
+h2 {
+  text-align: right;
+}
+
+h1 {
+  font-size: 110px;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 110px;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 38px;
+  text-align: center;
+}
+
+.hero {
+  background: #405c3c;
+  height: 260px;
+  width: 500px;
+  position: relative;
+  top: -100px;
+  left: 100px;
+  z-index: -1;
+}
