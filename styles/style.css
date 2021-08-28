@@ -58,3 +58,9 @@ h3 {
   background: #405c3c;
   z-index: -1;
 }
+
+.social-media-links {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 32px;
+}
