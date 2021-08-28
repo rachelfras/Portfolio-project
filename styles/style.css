@@ -1,33 +1,60 @@
 body {
-  font-family: "Dosis", sans-serif;
+  font-family: "Inconsolata", monospace;
 }
 
 h1,
 h2 {
+  font-family: "Dosis", sans-serif;
   text-align: right;
+  line-height: 94px;
 }
 
 h1 {
-  font-size: 110px;
+  font-size: 98px;
   font-weight: 400;
 }
 
 h2 {
-  font-size: 110px;
+  font-size: 98px;
   font-weight: 300;
 }
 
 h3 {
-  font-size: 38px;
+  font-size: 32px;
   text-align: center;
 }
 
-.hero {
+@media (min-width: 576px) {
+  .painter {
+    height: auto;
+    width: 290px;
+  }
+
+  .block {
+    height: 245px;
+    width: 460px;
+    position: relative;
+    left: 40px;
+  }
+}
+
+@media (max-width: 576px) {
+  .name {
+    background: #405c3c;
+    width: 100%;
+  }
+
+  .block {
+    display: none;
+  }
+
+  .painter {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+.block {
   background: #405c3c;
-  height: 260px;
-  width: 500px;
-  position: relative;
-  top: -100px;
-  left: 100px;
   z-index: -1;
 }
