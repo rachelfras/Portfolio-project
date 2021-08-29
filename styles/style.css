@@ -52,6 +52,28 @@ hr {
     position: relative;
     left: 40px;
   }
+}
+
+@media (max-width: 576px) {
+  .name {
+    background: var(--theme-color);
+    width: 100%;
+  }
+
+  .block {
+    display: none;
+  }
+
+  .painter {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .who-i-am {
+    justify-content: center;
+  }
 
   .triangle {
     position: relative;
@@ -70,21 +92,7 @@ hr {
   }
 }
 
-@media (max-width: 576px) {
-  .name {
-    background: var(--theme-color);
-    width: 100%;
-  }
-
-  .block {
-    display: none;
-  }
-
-  .painter {
-    width: 80%;
-    margin: 0 auto;
-  }
-
+@media (max-width: 1200px) {
   .triangle {
     display: none;
   }
@@ -100,9 +108,6 @@ hr {
   z-index: -1;
 }
 
-.who-am-i {
-}
-
 .social-media-links {
   display: flex;
   justify-content: space-evenly;
@@ -115,4 +120,8 @@ hr {
 
 .social-media-links i:hover {
   color: var(--theme-shadow);
+}
+
+.homepage-subheading {
+  padding: 20px;
 }
