@@ -1,7 +1,7 @@
 :root {
   --theme-color: #405c3c;
   --theme-shadow: #737b93;
-  --accent-color: #81947996;
+  --accent-color: #b67730;
 }
 
 body {
@@ -31,6 +31,11 @@ h3 {
   text-align: center;
 }
 
+hr {
+  width: 80%;
+  margin: 90px;
+}
+
 .navigation-edit {
   background: linear-gradient(to right, var(--theme-shadow), #fff);
 }
@@ -47,6 +52,22 @@ h3 {
     position: relative;
     left: 40px;
   }
+
+  .triangle {
+    position: relative;
+    width: 0;
+    border-bottom: solid 250px var(--accent-color);
+    border-right: solid 150px transparent;
+    border-left: solid 150px transparent;
+    z-index: -1;
+    bottom: 130px;
+    left: 657px;
+    margin-bottom: -216px;
+  }
+
+  .animated-col {
+    z-index: -2;
+  }
 }
 
 @media (max-width: 576px) {
@@ -62,6 +83,15 @@ h3 {
   .painter {
     width: 80%;
     margin: 0 auto;
+  }
+
+  .triangle {
+    display: none;
+  }
+
+  .homepage-subheading {
+    background: var(--accent-color);
+    width: 100%;
   }
 }
 
