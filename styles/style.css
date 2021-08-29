@@ -1,5 +1,12 @@
+:root {
+  --theme-color: #405c3c;
+  --theme-shadow: #737b93;
+  --accent-color: #81947996;
+}
+
 body {
   font-family: "Inconsolata", monospace;
+  color: #18160f;
 }
 
 h1,
@@ -24,6 +31,10 @@ h3 {
   text-align: center;
 }
 
+.navigation-edit {
+  background: linear-gradient(to right, var(--theme-shadow), #fff);
+}
+
 @media (min-width: 576px) {
   .painter {
     height: auto;
@@ -40,7 +51,7 @@ h3 {
 
 @media (max-width: 576px) {
   .name {
-    background: #405c3c;
+    background: var(--theme-color);
     width: 100%;
   }
 
@@ -55,12 +66,23 @@ h3 {
 }
 
 .block {
-  background: #405c3c;
+  background: var(--theme-color);
   z-index: -1;
+}
+
+.who-am-i {
 }
 
 .social-media-links {
   display: flex;
   justify-content: space-evenly;
   font-size: 32px;
+}
+
+.social-media-links i {
+  color: #18160f;
+}
+
+.social-media-links i:hover {
+  color: var(--theme-shadow);
 }
