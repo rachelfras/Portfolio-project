@@ -2,7 +2,7 @@
   --theme-color: #405c3c;
   --theme-shadow: #737b93;
   --accent-color: #b67730;
-  --last-color: #bfa196;
+  --easy-color: #bfa196;
 }
 
 body {
@@ -10,12 +10,28 @@ body {
   color: #18160f;
 }
 
-h1,
-h2 {
+.about-page {
+  max-width: 960px;
+  margin-bottom: 30px;
+}
+
+.home-page h1,
+.home-page h2 {
   font-family: "Dosis", sans-serif;
   font-size: 98px;
   text-align: right;
   line-height: 94px;
+}
+
+.about-page h1 {
+  font-family: "Dosis", sans-serif;
+  font-size: 76px;
+  margin-bottom: 40px;
+}
+
+.about-page h2 {
+  font-family: "Dosis", sans-serif;
+  font-size: 64px;
 }
 
 h1 {
@@ -43,6 +59,56 @@ hr {
 .painter {
   display: block;
   margin: 0 auto;
+}
+
+.block {
+  background: var(--theme-color);
+  z-index: -1;
+}
+
+.who-i-am {
+  flex-direction: column;
+}
+
+.social-media-links {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 32px;
+}
+
+.social-media-links i {
+  color: #18160f;
+}
+
+.social-media-links i:hover {
+  color: var(--theme-shadow);
+}
+
+.homepage-subheading {
+  padding: 40px 20px 20px;
+}
+
+.about-para {
+  font-size: 18px;
+}
+
+.headshot {
+  max-width: 360px;
+  display: block;
+  margin: 0 auto;
+}
+
+.contact-button {
+  background: var(--easy-color);
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+  font-size: 18px;
+}
+
+.contact-button:hover {
+  background: #fff;
+  border: 1px solid var(--easy-color);
 }
 
 @media (min-width: 576px) {
@@ -121,31 +187,4 @@ hr {
     background: var(--accent-color);
     width: 100%;
   }
-}
-
-.block {
-  background: var(--theme-color);
-  z-index: -1;
-}
-
-.who-i-am {
-  flex-direction: column;
-}
-
-.social-media-links {
-  display: flex;
-  justify-content: space-evenly;
-  font-size: 32px;
-}
-
-.social-media-links i {
-  color: #18160f;
-}
-
-.social-media-links i:hover {
-  color: var(--theme-shadow);
-}
-
-.homepage-subheading {
-  padding: 40px 20px 20px;
 }
