@@ -11,6 +11,10 @@ body {
   font-size: 18px;
 }
 
+.home-page {
+  max-width: 1200px;
+}
+
 .about-page,
 .contact-page,
 .work-page {
@@ -22,9 +26,9 @@ body {
 .home-page h2 {
   font-family: "Dosis", sans-serif;
   font-size: 98px;
-  text-align: right;
   line-height: 94px;
   font-weight: 400;
+  text-align: right;
 }
 
 .standard-h1 {
@@ -45,7 +49,7 @@ h3 {
 
 hr {
   width: 80%;
-  margin: 80px;
+  margin: 60px;
 }
 
 .navigation-edit {
@@ -107,7 +111,7 @@ hr {
   margin: 10px;
 }
 
-.elf {
+.elf-container {
   max-width: 300px;
 }
 
@@ -117,6 +121,8 @@ hr {
 
 .footer-content {
   max-width: 960px;
+  display: block;
+  margin: 0 auto;
 }
 
 .footer-banner a {
@@ -144,7 +150,6 @@ hr {
   background: var(--easy-color);
   display: block;
   margin: 0 auto;
-  margin-top: 40px;
 }
 
 .email {
@@ -174,7 +179,7 @@ hr {
 }
 
 @media (min-width: 576px) {
-  .painter {
+  .painter-container {
     height: auto;
     width: 290px;
     margin-left: 10px;
@@ -186,6 +191,10 @@ hr {
     position: relative;
     left: 40px;
     top: 30px;
+  }
+
+  .rehearsal-img {
+    margin-top: 30px;
   }
 }
 
@@ -207,6 +216,12 @@ hr {
 }
 
 @media (min-width: 768px) {
+  .painter-container {
+    height: auto;
+    width: 290px;
+    margin-left: 10px;
+  }
+
   .block {
     height: 245px;
     width: 460px;
@@ -233,8 +248,8 @@ hr {
 }
 
 @media (max-width: 768px) {
-  h1,
-  h2 {
+  .home-page h1,
+  .home-page h2 {
     font-size: 70px;
     line-height: 64px;
   }
