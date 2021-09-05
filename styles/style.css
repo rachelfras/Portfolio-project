@@ -67,8 +67,6 @@ hr {
 }
 
 .social-media-links {
-  display: flex;
-  justify-content: space-evenly;
   font-size: 32px;
 }
 
@@ -84,10 +82,10 @@ hr {
   padding: 40px 20px 20px;
 }
 
-.headshot {
-  max-width: 360px;
+.headshot-container {
   display: block;
   margin: 0 auto;
+  max-width: 360px;
 }
 
 .work-bubbles {
@@ -113,8 +111,20 @@ hr {
   max-width: 300px;
 }
 
-.contact-landing {
-  justify-content: center;
+.footer-banner {
+  background: var(--theme-color);
+}
+
+.footer-content {
+  max-width: 960px;
+}
+
+.footer-banner a {
+  color: #18160f;
+}
+
+.footer-banner a:hover {
+  color: var(--theme-shadow);
 }
 
 .recent a {
@@ -146,6 +156,7 @@ hr {
 
 .email a {
   color: #18160f;
+  font-size: 20px;
 }
 
 .contact-button:hover {
