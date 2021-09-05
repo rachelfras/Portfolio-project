@@ -12,7 +12,8 @@ body {
 }
 
 .about-page,
-.contact-page {
+.contact-page,
+.work-page {
   max-width: 960px;
   margin-bottom: 30px;
 }
@@ -26,20 +27,14 @@ body {
   font-weight: 400;
 }
 
-.about-page h1,
-.contact-page h1 {
+.standard-h1 {
   font-family: "Dosis", sans-serif;
   font-size: 76px;
 }
 
-.about-page h2,
-.contact-page h2 {
+.standard-subheading {
   font-family: "Dosis", sans-serif;
   font-size: 64px;
-}
-
-h2,
-.contact-page h1 {
   font-weight: 300;
 }
 
@@ -99,10 +94,19 @@ hr {
   justify-content: space-evenly;
 }
 
-.work-bubbles img {
+.work-minatures {
   border: 5px solid var(--easy-color);
   border-radius: 50%;
   width: 150px;
+  height: 150px;
+}
+
+.speech {
+  background: var(--easy-color);
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px;
 }
 
 .elf {
@@ -111,6 +115,10 @@ hr {
 
 .contact-landing {
   justify-content: center;
+}
+
+.recent a {
+  color: var(--accent-color);
 }
 
 .contact-landing .social-media-links {
