@@ -152,6 +152,19 @@ hr {
   margin: 0 auto;
 }
 
+.contact-button a {
+  color: #18160f;
+}
+
+.contact-button a:hover {
+  text-decoration: none;
+}
+
+.contact-button:hover {
+  background: #fff;
+  border: 1px solid var(--easy-color);
+}
+
 .email {
   background: var(--easy-color);
   margin: 0 auto;
@@ -162,11 +175,6 @@ hr {
 .email a {
   color: #18160f;
   font-size: 20px;
-}
-
-.contact-button:hover {
-  background: #fff;
-  border: 1px solid var(--easy-color);
 }
 
 .email:hover {
