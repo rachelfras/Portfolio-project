@@ -52,10 +52,6 @@ hr {
   margin: 60px;
 }
 
-.navigation-edit {
-  background: linear-gradient(to right, var(--theme-shadow), #fff);
-}
-
 .painter {
   display: block;
   margin: 0 auto;
