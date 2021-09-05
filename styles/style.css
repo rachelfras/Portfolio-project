@@ -95,6 +95,15 @@ hr {
   margin: 0 auto;
 }
 
+.work-bubbles {
+  justify-content: space-evenly;
+}
+
+.work-bubbles img {
+  border-radius: 50%;
+  width: 150px;
+}
+
 .elf {
   max-width: 300px;
 }
