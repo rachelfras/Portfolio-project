@@ -129,7 +129,9 @@ hr {
   color: var(--theme-shadow);
 }
 
-.recent a {
+.recent a,
+.aerial-ext,
+.aerial-ext:hover {
   color: var(--accent-color);
 }
 
